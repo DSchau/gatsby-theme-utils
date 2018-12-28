@@ -1,0 +1,3 @@
+# ignore built packages
+packages/**/*.js
+!packages/*/src/**/*.js
