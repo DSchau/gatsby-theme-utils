@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = function themeConfig({
   blogContent = path.join('content', 'blog'),
@@ -28,7 +28,6 @@ module.exports = function themeConfig({
         },
       },
       'gatsby-plugin-catch-links',
-      'gatsby-plugin-emotion',
       'gatsby-plugin-remove-trailing-slashes',
       'gatsby-plugin-twitter',
       {
@@ -76,27 +75,11 @@ module.exports = function themeConfig({
       'gatsby-plugin-sharp',
       'gatsby-plugin-offline',
       {
-        resolve: 'gatsby-plugin-typography',
-        options: {
-          omitGoogleFont: true,
-          pathToConfigModule: path.relative(
-            root,
-            require.resolve('./src/utils/typography.js')
-          ),
-        },
-      },
-      {
-        resolve: 'gatsby-plugin-google-analytics',
-        options: {
-          trackingId: 'UA-102928446-2',
-        },
-      },
-      {
         resolve: `gatsby-plugin-page-creator`,
         options: {
           path: path.join(__dirname, 'src', 'pages'),
         },
       },
     ],
-  }
-}
+  };
+};

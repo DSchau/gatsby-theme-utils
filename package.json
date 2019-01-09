@@ -39,6 +39,7 @@
     "test": "jest"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "themes/*"
   ]
 }

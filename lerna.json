@@ -13,7 +13,8 @@
   },
   "loglevel": "success",
   "packages": [
-    "packages/*"
+    "packages/*",
+    "themes/*"
   ],
   "version": "independent",
   "npmClient": "yarn",
