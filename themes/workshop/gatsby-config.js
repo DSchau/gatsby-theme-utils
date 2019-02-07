@@ -1,6 +1,7 @@
 const path = require(`path`);
 
-module.exports = function gatsbyConfig({ content, root }) {
+module.exports = function gatsbyConfig({ content }) {
+  console.log('GOT HEREEEEE', content);
   return {
     siteMetadata: {
       title: `Your Great Workshop`,
@@ -26,7 +27,7 @@ module.exports = function gatsbyConfig({ content, root }) {
         resolve: `gatsby-source-filesystem`,
         options: {
           name: `content`,
-          path: path.join(root, content),
+          path: content,
         },
       },
       `gatsby-transformer-sharp`,

@@ -1,9 +1,18 @@
 {
-  "name": "@dschau/gatsby-app-workshop",
-  "private": true,
-  "description": "The Gatsby + Drupal workshop for DrupalCamp",
-  "version": "0.0.6",
+  "name": "@dschau/gatsby-theme-workshop",
+  "description": "A reusable theme for a Gatsby workshop powered by MDX",
+  "version": "0.0.0",
   "author": "Dustin Schau <dustin@gatsbyjs.com>",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme"
+  ],
+  "files": [
+    "gatsby-*.js",
+    "index.js",
+    "src/*"
+  ],
+  "main": "n/a",
   "dependencies": {
     "@dschau/gatsby-theme-utils": "^0.0.3",
     "@dschau/sidebar": "^0.0.5",
@@ -11,7 +20,6 @@
     "@emotion/styled": "^10.0.6",
     "@mdx-js/mdx": "^0.16.6",
     "@mdx-js/tag": "^0.16.6",
-    "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
     "gatsby-mdx": "^0.3.5",
     "gatsby-plugin-emotion": "^4.0.1",
@@ -33,28 +41,24 @@
     "prism-react-renderer": "^0.1.5",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
-    "react": "16.8.0-alpha.0",
-    "react-dom": "16.8.0-alpha.0",
     "react-helmet": "^5.2.0",
-    "react-icons": "3.2.2",
+    "react-icons": "3.3.0",
     "react-typography": "^0.16.18",
     "typeface-spectral": "^0.0.54",
     "typography": "^0.16.18",
     "typography-plugin-code": "^0.16.18"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "peerDependencies": {
+    "gatsby": "^2.0.76",
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
+  },
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
-    "start": "npm run develop",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dschau/gatsby-drupal-workshop"
+    "url": "https://github.com/dschau/gatsby-themes"
   }
 }
