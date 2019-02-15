@@ -1,3 +1,3 @@
 # @dschau/gatsby-theme-utils
 
-**Now lives at [DSchau/gatsby-theme-utils](https://github.com/dschau/gatsby-theme-utils)**
+**Now lives at [DSchau/gatsby-themes](https://github.com/dschau/gatsby-themes)**
