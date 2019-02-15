@@ -1,3 +1,3 @@
-# @dschau/gatsby-themes
+# @dschau/gatsby-theme-utils
 
-A collection of themes and utilities to implement theming with Gatsby
+**Now lives at [DSchau/gatsby-theme-utils](https://github.com/dschau/gatsby-theme-utils) **
